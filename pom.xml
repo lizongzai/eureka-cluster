@@ -8,6 +8,8 @@
   <modules>
     <module>eureka-server01</module>
     <module>eureka-server02</module>
+    <module>service-provider</module>
+    <module>code-generator</module>
   </modules>
 
   <parent>
