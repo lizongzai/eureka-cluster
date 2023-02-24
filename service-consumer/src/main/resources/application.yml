@@ -24,11 +24,11 @@ eureka:
     # 是否开启IP地址注册
     prefer-ip-address: true
     # 主机地址+端口号
-    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
   client:
     serviceUrl:
       # 注册中心对外暴露的注册地址
-      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+      defaultZone: http://root:123456@localhost:9090/eureka/,http://root:123456@localhost:9091/eureka/
     # 是否将自己注册到注册中心,默认为true
     register-with-eureka: true
     # 表示Eureka Client 间隔多长时间服务器来取注册信息,默认为30秒
