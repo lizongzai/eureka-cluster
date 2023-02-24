@@ -24,7 +24,8 @@ eureka:
     # 是否开启IP地址注册
     prefer-ip-address: true
     # 主机地址+端口号
-    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    #instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
   client:
     serviceUrl:
       # 注册中心对外暴露的注册地址
