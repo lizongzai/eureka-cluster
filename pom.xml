@@ -10,6 +10,7 @@
     <module>eureka-server02</module>
     <module>service-provider</module>
     <module>code-generator</module>
+    <module>service-consumer</module>
   </modules>
 
   <parent>
