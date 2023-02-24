@@ -1,5 +1,5 @@
 # eureka-cluster
-微服务应用
+SpringCloud微服务技术栈
 
 ## 1. 微服务介绍
 
@@ -16,7 +16,7 @@
 
 ### 1.2 学习目的
 
-![image-20230223102134927](C:\Users\86181\AppData\Roaming\Typora\typora-user-images\image-20230223102134927.png)
+![image](https://user-images.githubusercontent.com/49580847/221223409-587b4f6d-3887-4bb4-b091-39fe9832dd97.png)
 
 
 
