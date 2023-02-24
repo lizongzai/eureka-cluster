@@ -17,7 +17,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
   @Override
   protected void configure(HttpSecurity http) throws Exception {
     super.configure(http);
-    http.csrf().ignoringAntMatchers("/eureka/**"); //忽略 eureka/**的所有请求安全认证
+    //忽略 eureka/**的所有请求安全认证
+    http.csrf().ignoringAntMatchers("/eureka/**");
     //注意, 若直接disable的会话吧安全验证禁用
     //http.csrf().disable().authorizeRequests().anyRequest().authenticated().and().httpBasic();
   }
