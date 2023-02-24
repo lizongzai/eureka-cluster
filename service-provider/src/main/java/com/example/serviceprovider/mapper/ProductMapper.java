@@ -2,15 +2,23 @@ package com.example.serviceprovider.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.serviceprovider.pojo.Product;
+import java.util.List;
 
 /**
  * <p>
- *  Mapper 接口
+ * Mapper 接口
  * </p>
  *
  * @author lizongzai
  * @since 2023-02-23
  */
 public interface ProductMapper extends BaseMapper<Product> {
+
+  /**
+   * 功能描述: 获取所有商品列表
+   *
+   * @return
+   */
+  List<Product> getAllProducts();
 
 }
