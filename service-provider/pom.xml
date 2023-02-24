@@ -64,6 +64,12 @@
       <version>1.9.6</version>
     </dependency>
 
+    <!--spring boot actuator 依赖-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
