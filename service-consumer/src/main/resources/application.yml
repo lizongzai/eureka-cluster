@@ -28,7 +28,7 @@ eureka:
   client:
     serviceUrl:
       # 注册中心对外暴露的注册地址
-      defaultZone: http://root:123456@localhost:9090/eureka/,http://root:123456@localhost:9091/eureka/
+      defaultZone: http://root:123456@localhost:8761/eureka/,http://root:123456@localhost:8762/eureka/
     # 是否将自己注册到注册中心,默认为true
     register-with-eureka: true
     # 表示Eureka Client 间隔多长时间服务器来取注册信息,默认为30秒

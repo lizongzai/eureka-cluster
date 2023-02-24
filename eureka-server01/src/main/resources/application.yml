@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 8761
 
 spring:
   application:
@@ -19,6 +19,6 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
   client:
     service-url:
-      defaultZone: http://root:123456@localhost:9091/eureka/
+      defaultZone: http://root:123456@localhost:8762/eureka/
     register-with-eureka: true
     fetch-registry: false
