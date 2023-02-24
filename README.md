@@ -24,3 +24,5 @@ SpringCloud微服务技术栈
 
 
 
+### 1.4 Swagger接口文档
+![image](https://user-images.githubusercontent.com/49580847/221224390-cea8f5b9-8b1c-4c16-b20b-38cc6694d5fe.png)
