@@ -1,5 +1,6 @@
 package com.example;
 
+import com.netflix.loadbalancer.RandomRule;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,6 +13,12 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @MapperScan("com.example.serviceconsumer.mapper")
 public class ServiceConsumerApplication {
+
+  //添加负载均衡全局策略
+//  @Bean
+//  public RandomRule randomRule() {
+//    return new RandomRule();
+//  }
 
   //RestTemplate是一个同步的web http客户端请求模板工具
   @Bean
