@@ -123,6 +123,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
 
     sb = new StringBuffer();
     sb.append("http://" + serviceInstance.getHost() + ":" + serviceInstance.getPort() + "/product/list");
+    System.out.println("负载均衡 = " + sb.toString());
 
     //ResponseEntity封装返回数据
     ResponseEntity<List<Product>> response = restTemplate.exchange(

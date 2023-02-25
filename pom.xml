@@ -11,6 +11,7 @@
     <module>service-provider</module>
     <module>code-generator</module>
     <module>service-consumer</module>
+    <module>service-provider-ribbon</module>
   </modules>
 
   <parent>
