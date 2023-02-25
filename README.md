@@ -12,6 +12,7 @@ SpringCloud微服务技术栈
 - mybatis/mybatis-plus
 - github
 - eureka注册中心
+- Ribbon负载均衡
 - swagger接口文档管理
 
 ### 1.2 学习目的
